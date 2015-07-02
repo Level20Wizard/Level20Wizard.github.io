@@ -130,6 +130,9 @@ nav ul li a{
 
   position: absolute;
   transform: translateX(calc(50% - 71px));
+  transform: translateX(-webkit-calc(50% - 71px));
+
+  
  
   width: 56%;
 
@@ -450,6 +453,8 @@ body p{
 #iframecontainer #dummy{
 	
 	margin-top: calc(63% + 13.5px);
+	margin-top: -webkit-calc(63% + 13.5px);
+
 	margin-top: 63%;
 }
 #rightside #element{
